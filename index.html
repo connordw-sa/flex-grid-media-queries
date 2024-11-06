@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 150px;
+
+        border-radius: 50%;
+      }
+
+      .wrapper {
+        display: flex;
+      }
+
+      .whateever,
+      .galleryofimages {
+        display: grid;
+        width: 500px;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .whateever {
+        gap: 5px;
+      }
+
+      @media screen and (max-width: 1024px) {
+        .whateever,
+        .galleryofimages {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        .whateever,
+        .galleryofimages {
+          display: grid;
+          width: 500px;
+          gap: 10px;
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="./Orange-colored-cat-yawns-displaying-teeth.webp" />
+
+      <div class="whateever">
+        <div class="one">One</div>
+        <div class="two">Two</div>
+        <div>whateever</div>
+        <div class="three">Three</div>
+        <div class="four">Four</div>
+        <div>whateever</div>
+        <div class="five">Five</div>
+        <div class="six">Six</div>
+        <div>whateever</div>
+      </div>
+
+      <div class="galleryofimages"></div>
+    </div>
+  </body>
+</html>

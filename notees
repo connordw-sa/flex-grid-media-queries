@@ -1,0 +1,15 @@
+flex vs grid
+
+flex: column, row - think when creating a navbar, footer, row or column of elements
+
+grid: gallery, products page
+
+why not use table?
+
+Avoid pre 2017
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+https://www.youtube.com/watch?v=jV8B24rSN5o
